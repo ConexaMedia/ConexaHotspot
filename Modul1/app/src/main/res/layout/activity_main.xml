@@ -27,7 +27,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    tools:srcCompat="@tools:sample/avatars" />
+                    android:src="@drawable/cnxcrop" />
             </LinearLayout>
 
             <LinearLayout
@@ -42,7 +42,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:text="CONEXA MEDIA ACCESS"
+                    android:text="High Speed Internet"
                     android:textAlignment="center"
                     android:textSize="25sp" />
             </LinearLayout>
@@ -116,6 +116,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginRight="15dp"
                     android:layout_weight="1"
+                    android:onClick="navigate"
                     android:text="LOGIN" />
 
                 <Button
