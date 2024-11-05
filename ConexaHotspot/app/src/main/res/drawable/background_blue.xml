@@ -1,0 +1,17 @@
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Latar Belakang Warna Putih -->
+    <item>
+        <color android:color="#FFFFFF"/>
+    </item>
+
+
+    <!-- Lingkaran biru yang dimiringkan ke kiri -->
+    <item android:gravity="top|right" android:top="-200dp">
+        <shape android:shape="oval">
+            <size android:width="600dp" android:height="500dp"/>
+            <solid android:color="#0B3054"/>
+        </shape>
+    </item>
+
+</layer-list>
